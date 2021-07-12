@@ -1,0 +1,160 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 3rem;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+ 
+}
+
+.nav__links {
+    text-decoration: none;
+        margin-right: 1.5rem;
+    
+}
+
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 3rem;
+
+   @media only screen and (max-width: $bp-large) {
+    margin-top: 5rem;
+ }
+
+ @media only screen and (max-width: $bp-tinest) {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+  
+}
+
+.header__text {
+    width: 32rem;
+    margin-right: -2rem; 
+
+    @media only screen and (max-width: $bp-tinest) {
+        order: 2;
+     }
+
+}
+
+.header__p {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+
+    @media only screen and (max-width: $bp-large) {
+        width: 25rem;
+     }
+
+     @media only screen and (max-width: $bp-small) {
+        width: 20rem;
+     }
+
+     @media only screen and (max-width: $bp-tinest) {
+        width: 25rem;
+     }
+}
+
+.header__heading {
+    font-size: 2.6rem;
+    width: 40rem;
+
+    
+    @media only screen and (max-width: $bp-largest) {
+        width: 35rem;
+        font-size: 2rem;
+    }
+    @media only screen and (max-width: $bp-large) {
+        width: 25rem;
+        font-size: 1.7rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        width: 20rem;
+        font-size: 1.5rem;
+     }
+
+     @media only screen and (max-width: $bp-tinest) {
+        position: none;
+        width: 35rem;
+        font-size: 2.5rem;
+     }
+}
+
+.header__banner {
+    width: 35rem;
+   margin-right: 1rem;
+   padding-top: 1rem;
+
+   
+   @media only screen and (max-width: $bp-largest) {
+    width: 30rem;
+}
+
+@media only screen and (max-width: $bp-large) {
+    width: 25rem;
+ }
+
+ @media only screen and (max-width: $bp-smallest) {
+    margin-top: 1rem;
+ }
+
+ @media only screen and (max-width: $bp-tinest) {
+    width: 30rem;
+    order: 1;
+ }
+}
+
+.header__input {
+    padding: .7rem;
+    width: 15rem;
+    border: .1rem solid $Desaturated-blue;
+
+    @media only screen and (max-width: $bp-large) {
+       width: 13rem;
+     }
+
+     @media only screen and (max-width: $bp-tinest) {
+        width: 20rem;
+     }
+}
+
+.header__btn {
+    padding: .7rem;
+    width: 10rem;
+    border: .1rem solid $bright-blue;
+    background-color: $bright-blue;
+    color: #fff;
+    cursor: pointer;
+
+    @media only screen and (max-width: $bp-large) {
+        width: 8rem;
+     }
+
+     @media only screen and (max-width: $bp-small) {
+        width: 14.5rem;
+        margin-top: 1rem;
+     }
+
+     @media only screen and (max-width: $bp-tinest) {
+        width: 21.5rem;
+     }
+}
+
+.header__cta {
+
+    @media only screen and (max-width: $bp-small) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+     }
+}

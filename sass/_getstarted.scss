@@ -1,0 +1,65 @@
+.getstarted {
+    background-color: $Desaturated-blue;
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-tinest) {
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+      
+     }
+
+
+   &__text {
+       margin: 5rem;
+       width: 33rem;
+       color: #fff;
+
+       @media only screen and (max-width: $bp-large) {
+        width: 30rem;
+     }
+   }
+
+   &__heading {
+
+    @media only screen and (max-width: $bp-small) {
+        width: 18rem;
+     }
+
+     @media only screen and (max-width: $bp-tinest) {
+        margin: auto;
+     }
+   }
+
+   &__cta {
+       margin: 5rem;
+       display: flex;
+       flex-direction: column;
+   }
+}
+
+.input__bottom {
+    width: 25rem;
+
+    @media only screen and (max-width: $bp-large) {
+        width: 18rem;
+     }
+
+     @media only screen and (max-width: $bp-small) {
+        width: 12rem;
+     }
+
+     @media only screen and (max-width: $bp-tinest) {
+        width: 18rem;
+     }
+}
+
+.btn__bottom {
+    width: 12rem;
+    margin-top: 1rem;
+
+    @media only screen and (max-width: $bp-tinest) {
+       width: 19.5rem;
+     }
+}
